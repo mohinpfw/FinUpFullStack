@@ -2,6 +2,7 @@
 import { Grid, Text, Paper } from '@mantine/core';
 import {useSelector} from "react-redux";
 
+// account feature
 export default function AccountFeature() {
     const accountList = useSelector(state => state.account.accountList)
     function handleTotalAccount(){
@@ -60,7 +61,7 @@ export default function AccountFeature() {
                     <Paper  radius="md" miw={"180px"} p="md" withBorder>
                         <Text size={"lg"} fw={700} style={{color: "#26AB35"}}>{`Rs. ${handleTotalBalanace().toLocaleString("en-US")}`}</Text>
                         <Text size={"sm"} fw={700} c="dimmed">
-                            TOTAL BALANCE
+                            TOTAL BALANCE 
                         </Text>
                     </Paper>
                 </Grid.Col>
