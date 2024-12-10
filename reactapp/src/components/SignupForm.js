@@ -96,7 +96,7 @@ export default function SignupForm(props) {
                                 <TextInput radius="md" style={{marginTop: 16}}
                                            withAsterisk
                                            label="First Name"
-                                           placeholder="Ex: Udhayakumar"
+                                           placeholder="Ex: Doe"
                                            type='firstName'
                                            {...userDetailsForm.getInputProps('firstName')}
                                 />
@@ -105,7 +105,7 @@ export default function SignupForm(props) {
                                 <TextInput radius="md" style={{marginTop: 16}}
                                            withAsterisk
                                            label="Last Name"
-                                           placeholder="Ex: T"
+                                           placeholder="Ex: John"
                                            type='lastName'
                                            {...userDetailsForm.getInputProps('lastName')}
                                 />
